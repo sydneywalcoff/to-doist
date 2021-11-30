@@ -1,23 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
+import Button from '../Button'
 
-const Header = () => {
-    const [loggedIn, setLoggedIn] = useState(false);
-
-    const logOutButtonHandler = () => {
-        if(loggedIn) {
-            return (
-                <>
-                button
-                </>
-            );
-        }
-    };
-
+const Header = ({ loggedIn }) => {
     return(
         <header>
-            <></>
-            <h1 className="header-title">To Do-Ist</h1>
-            {logOutButtonHandler}
+            <h1 className="header-title">To Do-ist</h1>
+            <Button loggedIn={loggedIn} />
         </header>
     );
 };
