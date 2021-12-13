@@ -1,0 +1,24 @@
+{
+  "name": "todo-list",
+  "description": "To-Doist",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sydneywalcoff/to-doist.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sydneywalcoff/to-doist/issues"
+  },
+  "homepage": "https://github.com/sydneywalcoff/to-doist#readme",
+  "dependencies": {
+    "typescript": "^4.5.3"
+  }
+}
